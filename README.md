@@ -20,11 +20,6 @@ Este projeto consiste na recriação da página inicial do Google, incluindo res
 |-- script.js   # Funcionalidade da barra de pesquisa
 ```
 
-## Como Executar
-1. Baixe ou clone o repositório.
-2. Abra o arquivo `index.html` em um navegador.
-3. Digite um termo no campo de pesquisa e pressione "Enter" para ser redirecionado ao Google Search.
-
 ## Implementação da Pesquisa
 A funcionalidade de busca é implementada em `script.js` usando JavaScript para capturar o texto inserido e redirecionar o usuário para o Google Search:
 ```javascript
