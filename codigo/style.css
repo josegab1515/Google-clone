@@ -1,0 +1,248 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+:root {
+    font-size: 62.5%
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    padding: 2rem;
+    justify-content: end;
+}
+
+.menu li {
+    text-decoration: none;
+    display: flex;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    transition: transform 0.3s ease;
+}
+
+#gml:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+#imgGl:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.bola {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-top: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#gmailLogo {
+    width: 2rem;
+    transition: transform 0.3s ease;
+}
+
+#gmailLogo:hover {
+    transform: scale(1.1);
+}
+
+.bola span {
+    padding-top: 0.9rem;
+    padding-left: 0.9rem;
+    transition: background-color 1s ease;
+    transition: transform 0.3s ease;
+
+}
+
+.bola:hover {
+    background-color: #cbcbcd;
+    transform: scale(1.1);
+}
+
+.img_menu {
+    color: black;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.login-btn {
+    display: flex;
+    color: white;
+    background-color: #0011cc;
+    padding: 1rem;
+    margin-top: -6px;
+    border-radius: 2rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.login-btn:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: auto;
+    height: 50rem;
+    border: 1px solid white;
+    overflow: hidden;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+
+
+.logoGoogle img {
+    width:29rem;
+    height: auto;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.barra_pesquisa {
+    border: 1px solid #cccccc;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(65, 62, 62, 0.5);
+    transition: all 0.5s ease;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+.barra_pesquisa input {
+    border: none;
+    list-style: none;
+    width: 44rem;
+    height: 2.3rem;
+    box-shadow: 111px 111px 111px rgba(0, 0, 0, 0.5);
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 1.8rem;
+    transition: all 0.5s ease;
+    padding: 1rem;
+}
+.barra_pesquisa ::placeholder {
+    color: #cccccc;
+}
+
+.img_barra {
+    width: 2.5rem;
+    color: #cccccc
+} 
+.infos{
+    display: flex;
+    margin-top: 3rem;
+}
+.bloco{
+    font-size: 1.5rem;
+   margin-left: 1rem;
+   padding: 0.5rem;
+   border-radius: 3px;
+   background-color: #f8f9fa;
+   border: 2px solid transparent;
+   transition: border 0.3s;
+}
+
+.bloco:hover{
+    border: 2px solid #cccccc;
+    
+}
+.pais{
+    padding: 1rem;
+    border-bottom: 2px solid #cccccc;
+    font-size: 1.5rem;
+    flex: 1;
+}
+.pais span{
+    margin-left: 1rem;
+}
+footer{
+    
+    background-color:#dadce0 ;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.copyr{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+}
+
+.copyr ul{
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    
+}
+.direita{
+   margin-right: 1rem;
+}
+
+.copyr li{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:705px){
+    .menu ul{
+        justify-content: center;
+    } 
+    .copyr{
+        flex-direction: column;
+        text-align: center;
+    }
+    .barra_pesquisa, form{
+        max-width: 95%
+    }
+    .logoGoogle{
+        max-width: 92%;
+    }
+    .barra_pesquisa #keyboard{
+        display: none;
+    }
+    
+   
+   
+}
+@media screen and (max-width:380px){
+    .barra_pesquisa #photo{
+        display: none;
+        
+    }
+}
