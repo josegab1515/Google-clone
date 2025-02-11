@@ -1,4 +1,4 @@
-# Google-clone# Clone da Página Inicial do Google
+# Clone da Página Inicial do Google
 
 Este projeto consiste na recriação da página inicial do Google, incluindo responsividade e funcionalidade de busca.
 
